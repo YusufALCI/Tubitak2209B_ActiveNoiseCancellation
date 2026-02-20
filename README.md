@@ -1,2 +1,4 @@
 # Tubitak2209B_ActiveNoiseCancellation
 This repository created for Active Noise Cancellation project that our Tubitak 2209 B project. In this project we use STM32 and mems microphone and speaker. We processing voice digital signal (DSP)  We distinguish noise and non noise voice using Convolutional Neural Network (CNN). Then we suppress the noise using the destructive interference method
+
+This code runs on the STM32H7 microcontroller and implements a parameterized Active Noise Cancellation (ANC) system. The current parameters are optimized for this specific setup, but they may require tuning for different ANC environments. In this repository, you can find implementations of FFT, spectrograms, Secondary Path Modeling, and the FxLMS algorithm. The system's input is the noise signal captured by the microphone, and the output is the anti-noise signal generated through the speaker.
